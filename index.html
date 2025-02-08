@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Karla:ital,wght@0,200..800;1,200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Weather Forecast</h1>
+            <h3> Displays temperature, humidity, and weather condition</h3>
+            <form id="weatherform">
+                <input type="text" id="cityInput" placeholder="Enter city name">
+                <button type="button" >Get Weather</button>
+   
+                <div id="weatherdiv">
+                    <p id="errorDisplay"></p> <!-- Display any errors encountered -->
+                    <p id="cityDisplay"></p> <!-- Display any errors encountered -->
+                    <p id="temperatureDisplay"></p> <!-- Display temperature -->
+                    <p id="humidityDisplay"></p> <!-- Display humidity -->
+                    <p id="weatherConditionDisplay"></p> <!-- Display waether condition -->
+                </div>
+            </form>            
+        </section>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
